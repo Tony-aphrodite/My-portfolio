@@ -1,9 +1,6 @@
 'use client'
-import { useState } from 'react'
 
 const About = () => {
-  const [imageLoaded, setImageLoaded] = useState(false)
-
   return (
     <section id="about" className="py-20 bg-gray-800/50">
       <div className="container mx-auto px-6">
@@ -20,13 +17,73 @@ const About = () => {
           {/* Photo Section */}
           <div className="relative flex justify-center">
             <div className="relative w-72 h-72 rounded-full overflow-hidden bg-gradient-to-br from-indigo-500 to-purple-600 p-1 shadow-2xl">
-              <div className="w-full h-full rounded-full overflow-hidden bg-gray-800 flex items-center justify-center">
-                <img 
-                  src="/images/avartar.jpg" 
-                  alt="Volodymyr Vlasov"
-                  className="w-full h-full object-cover object-center"
-                  onLoad={() => setImageLoaded(true)}
-                />
+              <div className="w-full h-full rounded-full overflow-hidden bg-gray-900 flex items-center justify-center">
+                <svg
+                  viewBox="0 0 400 400"
+                  role="img"
+                  aria-label="Volodymyr Vlasov monogram"
+                  className="w-full h-full animate-fade-in"
+                >
+                  <defs>
+                    <linearGradient id="vv-ink" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stopColor="#667eea" />
+                      <stop offset="100%" stopColor="#764ba2" />
+                    </linearGradient>
+                    <linearGradient id="vv-ring" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stopColor="#6366f1" stopOpacity="0.9" />
+                      <stop offset="100%" stopColor="#9333ea" stopOpacity="0.15" />
+                    </linearGradient>
+                    <radialGradient id="vv-glow" cx="50%" cy="38%" r="62%">
+                      <stop offset="0%" stopColor="#4c1d95" stopOpacity="0.55" />
+                      <stop offset="100%" stopColor="#0b1120" stopOpacity="0" />
+                    </radialGradient>
+                    <path id="vv-arc" d="M 50 200 A 150 150 0 0 0 350 200" fill="none" />
+                  </defs>
+
+                  <circle cx="200" cy="200" r="200" fill="#0f172a" />
+                  <circle cx="200" cy="200" r="200" fill="url(#vv-glow)" />
+                  <circle cx="200" cy="200" r="189" fill="none" stroke="url(#vv-ring)" strokeWidth="1.5" />
+                  <circle
+                    cx="200"
+                    cy="200"
+                    r="171"
+                    fill="none"
+                    stroke="url(#vv-ring)"
+                    strokeWidth="1"
+                    strokeDasharray="2 9"
+                    opacity="0.65"
+                  />
+
+                  {/* Initials built from the name */}
+                  <text
+                    x="200"
+                    y="178"
+                    textAnchor="middle"
+                    dominantBaseline="central"
+                    fontSize="146"
+                    fontWeight="800"
+                    letterSpacing="-10"
+                    fill="url(#vv-ink)"
+                  >
+                    VV
+                  </text>
+
+                  <line x1="150" y1="253" x2="250" y2="253" stroke="url(#vv-ink)" strokeWidth="2" />
+
+                  {/* Full name arced along the lower edge */}
+                  <text
+                    fontSize="19"
+                    fontWeight="600"
+                    letterSpacing="6.5"
+                    fill="#94a3b8"
+                  >
+                    <textPath href="#vv-arc" startOffset="50%" textAnchor="middle">
+                      VOLODYMYR VLASOV
+                    </textPath>
+                  </text>
+
+                  <circle cx="200" cy="285" r="3" fill="#a78bfa" />
+                </svg>
               </div>
             </div>
             
