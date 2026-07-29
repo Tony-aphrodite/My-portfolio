@@ -24,8 +24,8 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center z-10">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-black mb-4">
-            <span className="block text-white">Johnson</span>
-            <span className="block gradient-text">Takashi</span>
+            <span className="block text-white">Volodymyr</span>
+            <span className="block gradient-text">Vlasov</span>
           </h1>
           
           <div className="text-xl md:text-2xl text-gray-300 mb-8 h-8">

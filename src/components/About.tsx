@@ -23,7 +23,7 @@ const About = () => {
               <div className="w-full h-full rounded-full overflow-hidden bg-gray-800 flex items-center justify-center">
                 <img 
                   src="/images/avartar.jpg" 
-                  alt="Johnson Takashi"
+                  alt="Volodymyr Vlasov"
                   className="w-full h-full object-cover object-center"
                   onLoad={() => setImageLoaded(true)}
                 />
@@ -39,7 +39,7 @@ const About = () => {
           <div className="space-y-6">
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-white">
-                Hello! I&apos;m Johnson Takashi
+                Hello! I&apos;m Volodymyr Vlasov
               </h3>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>

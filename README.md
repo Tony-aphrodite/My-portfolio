@@ -1,4 +1,4 @@
-# Johnson Takashi's Portfolio
+# Volodymyr Vlasov's Portfolio
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
@@ -33,13 +33,13 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 ## 📸 Adding Your Photos
 
 ### Profile Photo
-1. Add your profile photo to `/public/images/` as `johnson-takashi.jpg`
+1. Add your profile photo to `/public/images/` as `volodymyr-vlasov.jpg`
 2. Update the photo in `src/components/About.tsx`:
    ```jsx
    // Replace the placeholder div with:
    <img 
-     src="/images/johnson-takashi.jpg" 
-     alt="Johnson Takashi"
+     src="/images/volodymyr-vlasov.jpg" 
+     alt="Volodymyr Vlasov"
      className="w-full h-full object-cover"
    />
    ```
@@ -145,4 +145,4 @@ Feel free to fork this project and customize it for your own portfolio!
 
 ---
 
-**Built with ❤️ by Johnson Takashi**
+**Built with ❤️ by Volodymyr Vlasov**

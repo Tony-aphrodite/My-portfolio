@@ -6,7 +6,7 @@
 2. Click "New Project" 
 3. Import from Git Repository:
    - Connect your GitHub account if not connected
-   - Select the repository: `My-portfolio` or `johnsontakashi/My-portfolio`
+   - Select the repository: `My-portfolio` or `volodymyrvlasov/My-portfolio`
 4. Configure the project:
    - Framework Preset: **Next.js**
    - Root Directory: **./** (leave as default)
