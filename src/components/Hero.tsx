@@ -46,12 +46,6 @@ const Hero = () => {
             >
               View My Work
             </button>
-            <button 
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-8 py-4 border-2 border-indigo-500 text-indigo-400 font-semibold rounded-lg hover:bg-indigo-500 hover:text-white transition-all duration-300"
-            >
-              Get In Touch
-            </button>
           </div>
         </div>
         

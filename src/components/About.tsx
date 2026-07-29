@@ -37,6 +37,13 @@ const About = () => {
                       <stop offset="0%" stopColor="#4c1d95" stopOpacity="0.55" />
                       <stop offset="100%" stopColor="#0b1120" stopOpacity="0" />
                     </radialGradient>
+                    {/* user-space: a horizontal line has a zero-height bbox, which degenerates
+                        an objectBoundingBox gradient and leaves the rule unpainted */}
+                    <linearGradient id="vv-rule" gradientUnits="userSpaceOnUse" x1="150" y1="253" x2="250" y2="253">
+                      <stop offset="0%" stopColor="#667eea" stopOpacity="0.15" />
+                      <stop offset="50%" stopColor="#8b7ce8" />
+                      <stop offset="100%" stopColor="#764ba2" stopOpacity="0.15" />
+                    </linearGradient>
                     <path id="vv-arc" d="M 50 200 A 150 150 0 0 0 350 200" fill="none" />
                   </defs>
 
@@ -68,7 +75,7 @@ const About = () => {
                     VV
                   </text>
 
-                  <line x1="150" y1="253" x2="250" y2="253" stroke="url(#vv-ink)" strokeWidth="2" />
+                  <line x1="150" y1="253" x2="250" y2="253" stroke="url(#vv-rule)" strokeWidth="2" />
 
                   {/* Full name arced along the lower edge */}
                   <text

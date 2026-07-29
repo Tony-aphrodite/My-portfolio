@@ -10,7 +10,7 @@ const Navigation = () => {
       setIsScrolled(window.scrollY > 50)
       
       // Update active section based on scroll position
-      const sections = ['home', 'about', 'skills', 'projects', 'contact']
+      const sections = ['home', 'about', 'skills', 'projects']
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -38,7 +38,6 @@ const Navigation = () => {
     { id: 'about', label: 'About' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
-    { id: 'contact', label: 'Contact' },
   ]
 
   return (
@@ -48,7 +47,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold gradient-text">
-            JT
+            VV
           </div>
           
           <div className="hidden md:flex space-x-8">
