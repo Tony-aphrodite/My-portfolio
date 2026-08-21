@@ -1,4 +1,4 @@
-# Volodymyr Vlasov's Portfolio
+# Steve Chen's Portfolio
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
@@ -33,13 +33,13 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 ## 📸 Adding Your Photos
 
 ### Profile Photo
-1. Add your profile photo to `/public/images/` as `volodymyr-vlasov.jpg`
+1. Add your profile photo to `/public/images/` as `steve-chen.jpg`
 2. Update the photo in `src/components/About.tsx`:
    ```jsx
    // Replace the placeholder div with:
    <img 
-     src="/images/volodymyr-vlasov.jpg" 
-     alt="Volodymyr Vlasov"
+     src="/images/steve-chen.jpg" 
+     alt="Steve Chen"
      className="w-full h-full object-cover"
    />
    ```
@@ -145,4 +145,4 @@ Feel free to fork this project and customize it for your own portfolio!
 
 ---
 
-**Built with ❤️ by Volodymyr Vlasov**
+**Built with ❤️ by Steve Chen**

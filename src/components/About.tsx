@@ -21,41 +21,41 @@ const About = () => {
                 <svg
                   viewBox="0 0 400 400"
                   role="img"
-                  aria-label="Volodymyr Vlasov monogram"
+                  aria-label="Steve Chen monogram"
                   className="w-full h-full animate-fade-in"
                 >
                   <defs>
-                    <linearGradient id="vv-ink" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <linearGradient id="sc-ink" x1="0%" y1="0%" x2="100%" y2="100%">
                       <stop offset="0%" stopColor="#667eea" />
                       <stop offset="100%" stopColor="#764ba2" />
                     </linearGradient>
-                    <linearGradient id="vv-ring" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <linearGradient id="sc-ring" x1="0%" y1="0%" x2="100%" y2="100%">
                       <stop offset="0%" stopColor="#6366f1" stopOpacity="0.9" />
                       <stop offset="100%" stopColor="#9333ea" stopOpacity="0.15" />
                     </linearGradient>
-                    <radialGradient id="vv-glow" cx="50%" cy="38%" r="62%">
+                    <radialGradient id="sc-glow" cx="50%" cy="38%" r="62%">
                       <stop offset="0%" stopColor="#4c1d95" stopOpacity="0.55" />
                       <stop offset="100%" stopColor="#0b1120" stopOpacity="0" />
                     </radialGradient>
                     {/* user-space: a horizontal line has a zero-height bbox, which degenerates
                         an objectBoundingBox gradient and leaves the rule unpainted */}
-                    <linearGradient id="vv-rule" gradientUnits="userSpaceOnUse" x1="150" y1="253" x2="250" y2="253">
+                    <linearGradient id="sc-rule" gradientUnits="userSpaceOnUse" x1="150" y1="253" x2="250" y2="253">
                       <stop offset="0%" stopColor="#667eea" stopOpacity="0.15" />
                       <stop offset="50%" stopColor="#8b7ce8" />
                       <stop offset="100%" stopColor="#764ba2" stopOpacity="0.15" />
                     </linearGradient>
-                    <path id="vv-arc" d="M 50 200 A 150 150 0 0 0 350 200" fill="none" />
+                    <path id="sc-arc" d="M 50 200 A 150 150 0 0 0 350 200" fill="none" />
                   </defs>
 
                   <circle cx="200" cy="200" r="200" fill="#0f172a" />
-                  <circle cx="200" cy="200" r="200" fill="url(#vv-glow)" />
-                  <circle cx="200" cy="200" r="189" fill="none" stroke="url(#vv-ring)" strokeWidth="1.5" />
+                  <circle cx="200" cy="200" r="200" fill="url(#sc-glow)" />
+                  <circle cx="200" cy="200" r="189" fill="none" stroke="url(#sc-ring)" strokeWidth="1.5" />
                   <circle
                     cx="200"
                     cy="200"
                     r="171"
                     fill="none"
-                    stroke="url(#vv-ring)"
+                    stroke="url(#sc-ring)"
                     strokeWidth="1"
                     strokeDasharray="2 9"
                     opacity="0.65"
@@ -69,13 +69,13 @@ const About = () => {
                     dominantBaseline="central"
                     fontSize="146"
                     fontWeight="800"
-                    letterSpacing="-10"
-                    fill="url(#vv-ink)"
+                    letterSpacing="-2"
+                    fill="url(#sc-ink)"
                   >
-                    VV
+                    SC
                   </text>
 
-                  <line x1="150" y1="253" x2="250" y2="253" stroke="url(#vv-rule)" strokeWidth="2" />
+                  <line x1="150" y1="253" x2="250" y2="253" stroke="url(#sc-rule)" strokeWidth="2" />
 
                   {/* Full name arced along the lower edge */}
                   <text
@@ -84,8 +84,8 @@ const About = () => {
                     letterSpacing="6.5"
                     fill="#94a3b8"
                   >
-                    <textPath href="#vv-arc" startOffset="50%" textAnchor="middle">
-                      VOLODYMYR VLASOV
+                    <textPath href="#sc-arc" startOffset="50%" textAnchor="middle">
+                      STEVE CHEN
                     </textPath>
                   </text>
 
@@ -103,7 +103,7 @@ const About = () => {
           <div className="space-y-6">
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-white">
-                Hello! I&apos;m Volodymyr Vlasov
+                Hello! I&apos;m Steve Chen
               </h3>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>

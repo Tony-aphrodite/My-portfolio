@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Volodymyr Vlasov. Built with Next.js and Tailwind CSS.
+            © {new Date().getFullYear()} Steve Chen. Built with Next.js and Tailwind CSS.
           </p>
         </div>
       </div>

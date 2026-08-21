@@ -16,7 +16,7 @@ const Projects = () => {
       image: '/images/standard1.png',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
       category: 'fullstack',
-      githubUrl: 'https://github.com/volodymyrvlasov/ecommerce',
+      githubUrl: 'https://github.com/stevechen/ecommerce',
       liveUrl: 'https://wolfandbadger.com',
       featured: true
     },
@@ -27,7 +27,7 @@ const Projects = () => {
       image: '/images/standard2.png',
       technologies: ['Next.js', 'TypeScript', 'Chart.js', 'Tailwind'],
       category: 'frontend',
-      githubUrl: 'https://github.com/volodymyrvlasov/social-dashboard',
+      githubUrl: 'https://github.com/stevechen/social-dashboard',
       liveUrl: 'https://poosting.com/',
       featured: true
     },
@@ -38,7 +38,7 @@ const Projects = () => {
       image: '/images/standard6.png',
       technologies: ['React Native', 'Firebase', 'Redux', 'AsyncStorage'],
       category: 'mobile',
-      githubUrl: 'https://github.com/volodymyrvlasov/task-app',
+      githubUrl: 'https://github.com/stevechen/task-app',
       liveUrl: 'https://mylifeorganized.net',
       featured: false
     },
@@ -49,7 +49,7 @@ const Projects = () => {
       image: '/images/standard4.png',
       technologies: ['Python', 'FastAPI', 'OpenAI', 'Docker'],
       category: 'backend',
-      githubUrl: 'https://github.com/volodymyrvlasov/ai-chatbot',
+      githubUrl: 'https://github.com/stevechen/ai-chatbot',
       liveUrl: 'https://nomi.ai',
       featured: false
     },
@@ -60,7 +60,7 @@ const Projects = () => {
       image: '/images/standard3.png',
       technologies: ['Next.js', 'Prisma', 'PostgreSQL', 'Google Maps'],
       category: 'fullstack',
-      githubUrl: 'https://github.com/volodymyrvlasov/realestate',
+      githubUrl: 'https://github.com/stevechen/realestate',
       liveUrl: 'https://propertiesmt.com',
       featured: true
     },
@@ -71,7 +71,7 @@ const Projects = () => {
       image: '/images/standard5.png',
       technologies: ['React', 'Weather API', 'Leaflet', 'CSS3'],
       category: 'frontend',
-      githubUrl: 'https://github.com/volodymyrvlasov/weather-app',
+      githubUrl: 'https://github.com/stevechen/weather-app',
       liveUrl: 'https://weawow.com',
       featured: false
     },
@@ -82,7 +82,7 @@ const Projects = () => {
       image: '/images/standard7.png',
       technologies: ['WordPress', 'WooCommerce', 'PHP', 'MySQL', 'Custom Themes'],
       category: 'fullstack',
-      githubUrl: 'https://github.com/volodymyrvlasov/wordpress-ecommerce',
+      githubUrl: 'https://github.com/stevechen/wordpress-ecommerce',
       liveUrl: 'https://www.woolcouturecompany.com/',
       featured: false
     },
@@ -93,7 +93,7 @@ const Projects = () => {
       image: '/images/standard8.png',
       technologies: ['PHP', 'Laravel', 'MySQL', 'Bootstrap', 'Stripe API'],
       category: 'fullstack',
-      githubUrl: 'https://github.com/volodymyrvlasov/laravel-ecommerce',
+      githubUrl: 'https://github.com/stevechen/laravel-ecommerce',
       liveUrl: 'https://daalder.com/',
       featured: false
     },
@@ -104,7 +104,7 @@ const Projects = () => {
       image: '/images/standard9.png',
       technologies: ['PHP', 'MySQL', 'jQuery', 'REST API', 'PayPal Integration'],
       category: 'fullstack',
-      githubUrl: 'https://github.com/volodymyrvlasov/custom-cms-ecommerce',
+      githubUrl: 'https://github.com/stevechen/custom-cms-ecommerce',
       liveUrl: 'https://demo.bagisto.com/',
       featured: false
     },
@@ -116,7 +116,7 @@ const Projects = () => {
       image: '/images/standard10.png',
       technologies: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion', 'Stripe'],
       category: 'frontend',
-      githubUrl: 'https://github.com/volodymyrvlasov/saas-landing-mvp',
+      githubUrl: 'https://github.com/stevechen/saas-landing-mvp',
       liveUrl: 'https://shipped.club/',
       featured: false
     },
@@ -127,7 +127,7 @@ const Projects = () => {
       image: '/images/standard11.png',
       technologies: ['Vue.js', 'Chart.js', 'Firebase', 'CSS3', 'Google Analytics'],
       category: 'frontend',
-      githubUrl: 'https://github.com/volodymyrvlasov/analytics-dashboard-mvp',
+      githubUrl: 'https://github.com/stevechen/analytics-dashboard-mvp',
       liveUrl: 'https://www.web-stat.com/',
       featured: false
     },
@@ -138,7 +138,7 @@ const Projects = () => {
       image: '/images/standard12.png',
       technologies: ['React', 'TypeScript', 'Material-UI', 'Calendar API', 'PayPal'],
       category: 'frontend',
-      githubUrl: 'https://github.com/volodymyrvlasov/event-booking-mvp',
+      githubUrl: 'https://github.com/stevechen/event-booking-mvp',
       liveUrl: 'https://www.ticketbud.com/',
       featured: false
     },
@@ -150,7 +150,7 @@ const Projects = () => {
       image: '/images/standard13.png',
       technologies: ['Node.js', 'Express', 'Redis', 'JWT', 'Docker', 'MongoDB'],
       category: 'backend',
-      githubUrl: 'https://github.com/volodymyrvlasov/api-gateway',
+      githubUrl: 'https://github.com/stevechen/api-gateway',
       liveUrl: 'https://www.krakend.io/',
       featured: false
     },
@@ -161,7 +161,7 @@ const Projects = () => {
       image: '/images/standard14.png',
       technologies: ['Python', 'FastAPI', 'Docker', 'Kubernetes', 'PostgreSQL', 'RabbitMQ'],
       category: 'backend',
-      githubUrl: 'https://github.com/volodymyrvlasov/microservices-system',
+      githubUrl: 'https://github.com/stevechen/microservices-system',
       liveUrl: 'https://www.qovery.com/',
       featured: false
     },
@@ -173,7 +173,7 @@ const Projects = () => {
       image: '/images/standard15.png',
       technologies: ['Flutter', 'Dart', 'Firebase', 'Google Fit API', 'Stripe'],
       category: 'mobile',
-      githubUrl: 'https://github.com/volodymyrvlasov/fitness-tracker-flutter',
+      githubUrl: 'https://github.com/stevechen/fitness-tracker-flutter',
       liveUrl: 'https://www.jefit.com/',
       featured: false
     },
@@ -184,7 +184,7 @@ const Projects = () => {
       image: '/images/standard16.png',
       technologies: ['React Native', 'Redux', 'Firebase', 'Maps API', 'Stripe'],
       category: 'mobile',
-      githubUrl: 'https://github.com/volodymyrvlasov/food-delivery-rn',
+      githubUrl: 'https://github.com/stevechen/food-delivery-rn',
       liveUrl: 'https://www.deliverclub.com/',
       featured: false
     },
@@ -195,7 +195,7 @@ const Projects = () => {
       image: '/images/standard17.png',
       technologies: ['Flutter', 'Dart', 'TensorFlow Lite', 'SQLite', 'Audio API'],
       category: 'mobile',
-      githubUrl: 'https://github.com/volodymyrvlasov/language-learning-flutter',
+      githubUrl: 'https://github.com/stevechen/language-learning-flutter',
       liveUrl: 'https://www.talky-app.com/',
       featured: false
     },
@@ -206,7 +206,7 @@ const Projects = () => {
       image: '/images/standard18.png',
       technologies: ['React Native', 'Expo', 'AsyncStorage', 'Camera API', 'Chart.js'],
       category: 'mobile',
-      githubUrl: 'https://github.com/volodymyrvlasov/expense-manager-rn',
+      githubUrl: 'https://github.com/stevechen/expense-manager-rn',
       liveUrl: 'https://monee-app.com/',
       featured: false
     },
@@ -217,7 +217,7 @@ const Projects = () => {
       image: '/images/standard19.png',
       technologies: ['Flutter', 'Dart', 'Firebase', 'Cloud Storage', 'WebRTC'],
       category: 'mobile',
-      githubUrl: 'https://github.com/volodymyrvlasov/social-media-flutter',
+      githubUrl: 'https://github.com/stevechen/social-media-flutter',
       liveUrl: 'https://www.yubo.live/',
       featured: false
     }
