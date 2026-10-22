@@ -1,5 +1,7 @@
 # Steve Chen's Portfolio
 
+[![CI](https://github.com/Tony-aphrodite/My-portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/Tony-aphrodite/My-portfolio/actions/workflows/ci.yml)
+
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
 ## 🌟 Features
